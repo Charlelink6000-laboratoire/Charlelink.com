@@ -1,0 +1,1713 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Création de Site Web Charleroi | Agence Web CharleLink</title>
+    <meta name="description" content="CharleLink conçoit votre site internet sur-mesure, rapide et optimisé pour Google à Charleroi. Demandez votre devis gratuit en 1 à 2 semaines.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="CharleLink | Création de Sites Web à Charleroi">
+    <meta property="og:description" content="Sites web professionnels pour les entreprises de Charleroi. Design sur mesure, rapide, optimisé SEO.">
+    <meta property="og:url" content="https://charlelink.netlify.app">
+    <meta property="og:locale" content="fr_BE">
+    <meta property="og:image" content="https://charlelink.netlify.app/og-image.jpg">
+    <meta property="og:site_name" content="CharleLink">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Création de Site Web Charleroi | Agence Web CharleLink">
+    <meta name="twitter:description" content="CharleLink conçoit votre site internet sur-mesure, rapide et optimisé pour Google à Charleroi.">
+    <meta name="twitter:image" content="https://charlelink.netlify.app/og-image.jpg">
+    <meta name="geo.region" content="BE-WHT">
+    <meta name="geo.placename" content="Charleroi">
+    <meta name="geo.position" content="50.4108;4.4446">
+    <meta name="ICBM" content="50.4108, 4.4446">
+
+    <meta name="keywords" content="création site web Charleroi, agence web Charleroi, site internet Charleroi, développeur web Charleroi, création site internet Hainaut, agence web Belgique">
+    <meta name="author" content="CharleLink">
+    <meta name="theme-color" content="#1C3356">
+    <meta name="msvalidate.01" content="BING_VERIFICATION_CODE">
+    <meta name="googlebot" content="index, follow">
+    <meta name="bingbot" content="index, follow">
+    <link rel="canonical" href="https://charlelink.netlify.app/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebDesignCompany",
+      "name": "CharleLink",
+      "url": "https://charlelink.netlify.app",
+      "email": "charlelink6000@gmail.com",
+      "description": "Agence web à Charleroi spécialisée en création de sites internet professionnels. Livraison en 1 à 2 semaines, disponible 24h/24, tarifs inférieurs au marché.",
+      "openingHours": "Mo-Su 00:00-23:59",
+      "priceRange": "€€",
+      "areaServed": ["Charleroi","Hainaut","Belgique","Wallonie"],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Charleroi",
+        "postalCode": "6000",
+        "addressCountry": "BE"
+      },
+      "hasMap": "https://goo.gl/maps/charlelink",
+      "sameAs": [
+        "https://www.instagram.com/charlelink",
+        "https://www.facebook.com/share/1DTS4Xe7Vr/"
+      ]
+    }
+    </script>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --cream: #F5F3EE;
+            --navy:  #1C3356;
+            --gold:  #C6A84E;
+            --goldl: #D4B86A;
+            --text:  #1A1A1A;
+            --muted: #6B7280;
+            --line:  #E0DDD6;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--cream);
+            color: var(--text);
+            -webkit-font-smoothing: antialiased;
+            cursor: none;
+        }
+
+
+        /* ── FLOATING CTA ── */
+        .float-cta {
+            position:fixed; bottom:28px; right:28px; z-index:1000;
+            display:flex; align-items:center; gap:10px;
+            background:var(--gold); color:#111;
+            padding:14px 22px; border-radius:50px;
+            font-size:13px; font-weight:700; letter-spacing:.3px;
+            text-decoration:none;
+            box-shadow:0 8px 32px rgba(198,168,78,.45);
+            transition:transform .25s, box-shadow .25s;
+        }
+        .float-cta:hover { transform:translateY(-3px); box-shadow:0 14px 40px rgba(198,168,78,.55); }
+        @media (max-width:600px){ .float-cta span { display:none; } .float-cta { padding:14px; } }
+
+        /* ── CONTACT STRIP ── */
+        .contact-strip {
+            background:var(--navy); padding:18px 56px;
+            display:flex; align-items:center; gap:24px; flex-wrap:wrap;
+        }
+        .strip-text { font-size:13px; color:rgba(255,255,255,.7); flex:1; }
+        .strip-text strong { color:white; }
+        .strip-btn {
+            background:var(--gold); color:#111;
+            padding:10px 22px; border-radius:4px;
+            font-size:13px; font-weight:700;
+            text-decoration:none; white-space:nowrap;
+            transition:background .2s;
+        }
+        .strip-btn:hover { background:var(--goldl); }
+        .strip-email { font-size:12px; color:rgba(255,255,255,.45); text-decoration:none; }
+        .strip-email:hover { color:var(--gold); }
+        @media (max-width:700px){ .contact-strip { padding:16px 24px; gap:12px; } }
+
+        /* ── CONTACT FORM extras ── */
+        .contact-or { font-size:12px; color:rgba(255,255,255,.3); margin:24px 0 8px; text-align:center; }
+        .contact-email-link { color:var(--gold); font-size:14px; font-weight:500; text-decoration:none; letter-spacing:.3px; }
+        .contact-email-link:hover { text-decoration:underline; }
+
+        /* ── FOOTER extras ── */
+        .footer-left { display:flex; flex-direction:column; gap:4px; }
+        .footer-email { font-size:11px; color:rgba(255,255,255,.35); text-decoration:none; }
+        .footer-email:hover { color:var(--gold); }
+
+
+        /* ── MOBILE HERO: animation CSS quand Three.js est caché ── */
+        .hero-mobile-anim {
+            display: none;
+            position: relative; overflow: hidden;
+            background: var(--navy);
+            min-height: 280px;
+            justify-content: center; align-items: center;
+        }
+        .hero-mobile-anim .orb {
+            position: absolute; border-radius: 50%;
+            animation: orbFloat 4s ease-in-out infinite;
+        }
+        .orb1 { width:200px; height:200px; background:radial-gradient(circle, rgba(198,168,78,.35) 0%, transparent 70%); top:-40px; right:-40px; animation-delay:0s; }
+        .orb2 { width:150px; height:150px; background:radial-gradient(circle, rgba(93,173,226,.25) 0%, transparent 70%); bottom:-20px; left:20px; animation-delay:-2s; }
+        .orb3 { width:100px; height:100px; background:radial-gradient(circle, rgba(198,168,78,.2) 0%, transparent 70%); top:50%; left:50%; transform:translate(-50%,-50%); animation-delay:-1s; }
+        .hero-mobile-stat { position:relative; z-index:2; text-align:center; color:white; }
+        .hero-mobile-stat strong { display:block; font-family:'DM Serif Display',Georgia,serif; font-size:56px; color:var(--gold); letter-spacing:-1px; }
+        .hero-mobile-stat span { font-size:11px; letter-spacing:2px; text-transform:uppercase; color:rgba(255,255,255,.4); }
+
+        /* Ring animation */
+        .hero-mobile-ring {
+            position:absolute; border-radius:50%; border:1px solid rgba(198,168,78,.2);
+            animation: ringPulse 3s ease-in-out infinite;
+        }
+        .ring1 { width:180px; height:180px; top:50%; left:50%; transform:translate(-50%,-50%); animation-delay:0s; }
+        .ring2 { width:240px; height:240px; top:50%; left:50%; transform:translate(-50%,-50%); animation-delay:-.7s; }
+        .ring3 { width:300px; height:300px; top:50%; left:50%; transform:translate(-50%,-50%); animation-delay:-1.4s; }
+
+        @keyframes orbFloat {
+            0%,100% { transform:translateY(0) scale(1); }
+            50% { transform:translateY(-20px) scale(1.08); }
+        }
+        @keyframes ringPulse {
+            0%,100% { opacity:.3; transform:translate(-50%,-50%) scale(1); }
+            50% { opacity:.08; transform:translate(-50%,-50%) scale(1.1); }
+        }
+
+
+
+        /* ══ SCROLL-DRIVEN STICKY (mobile only) ══ */
+        @media (max-width:900px) {
+            .hero { background:var(--navy); position:relative; overflow:hidden; }
+            .hero::before {
+                content:''; position:absolute; inset:0;
+                background: radial-gradient(ellipse at 80% 20%, rgba(198,168,78,.18) 0%, transparent 60%),
+                            radial-gradient(ellipse at 20% 80%, rgba(93,173,226,.12) 0%, transparent 50%);
+                pointer-events:none; z-index:0;
+            }
+            .hero-left { background:transparent; color:white; z-index:2; position:relative; }
+            .hero-left .hero-tag { color:var(--gold); }
+            .hero-left h1 { color:white; }
+            .hero-left h1 em { color:var(--gold); font-style:normal; }
+            .hero-left p { color:rgba(255,255,255,.7); }
+            .hero-left .btn-dark { background:var(--gold); color:#111; }
+            .hero-left .btn-line { border-color:rgba(255,255,255,.3); color:white; }
+            /* Formes 3D CSS flottantes */
+            .hero-3d-shapes { position:absolute; inset:0; z-index:1; pointer-events:none; overflow:hidden; }
+            .shape3d {
+                position:absolute;
+                border-radius:4px;
+                border:1px solid rgba(198,168,78,.3);
+                animation: shape3dFloat linear infinite;
+                transform-style:preserve-3d;
+            }
+            .shape3d:nth-child(1){ width:60px;height:60px; top:15%; right:8%;
+                animation-duration:6s; animation-delay:0s;
+                background:rgba(198,168,78,.06);
+                box-shadow:0 0 30px rgba(198,168,78,.15);
+            }
+            .shape3d:nth-child(2){ width:40px;height:40px; top:55%; right:18%;
+                animation-duration:8s; animation-delay:-3s;
+                background:rgba(93,173,226,.08); border-color:rgba(93,173,226,.3);
+                border-radius:50%;
+            }
+            .shape3d:nth-child(3){ width:80px;height:80px; top:70%; right:5%;
+                animation-duration:10s; animation-delay:-5s;
+                background:rgba(198,168,78,.04);
+                clip-path:polygon(50% 0%,100% 50%,50% 100%,0% 50%);
+                border:none;
+            }
+            .shape3d:nth-child(4){ width:20px;height:20px; top:30%; right:35%;
+                animation-duration:5s; animation-delay:-1s;
+                background:var(--gold); border:none; border-radius:50%;
+                opacity:.4;
+            }
+            .shape3d:nth-child(5){ width:100px;height:2px; top:45%; right:-10px;
+                animation-duration:7s; animation-delay:-4s;
+                background:linear-gradient(90deg,transparent,rgba(198,168,78,.5),transparent);
+                border:none; border-radius:0;
+            }
+            @keyframes shape3dFloat {
+                0%   { transform:perspective(300px) rotateX(0deg) rotateY(0deg) translateY(0); opacity:.6; }
+                25%  { transform:perspective(300px) rotateX(15deg) rotateY(20deg) translateY(-12px); opacity:.9; }
+                50%  { transform:perspective(300px) rotateX(0deg) rotateY(40deg) translateY(-20px); opacity:.5; }
+                75%  { transform:perspective(300px) rotateX(-15deg) rotateY(20deg) translateY(-8px); opacity:.8; }
+                100% { transform:perspective(300px) rotateX(0deg) rotateY(0deg) translateY(0); opacity:.6; }
+            }
+            .deliv-sticky-wrap { display:block; height:600vh; position:relative; }
+            .deliv-sticky-inner { position:sticky; top:0; height:100vh; overflow:hidden; background:var(--cream); display:flex; flex-direction:column; justify-content:center; align-items:center; }
+            .deliv-sticky-bg { position:absolute; inset:0; background:linear-gradient(135deg,var(--cream) 60%,rgba(198,168,78,.08)); }
+            .deliv-slide { position:absolute; inset:0; display:flex; flex-direction:column; justify-content:center; padding:40px 28px; opacity:0; transform:translateY(30px); transition:opacity .5s cubic-bezier(.16,1,.3,1),transform .5s cubic-bezier(.16,1,.3,1); pointer-events:none; }
+            .deliv-slide.active { opacity:1; transform:none; pointer-events:auto; }
+            .deliv-slide-num { font-family:'DM Serif Display',Georgia,serif; font-size:80px; color:rgba(198,168,78,.15); line-height:1; margin-bottom:8px; }
+            .deliv-slide-label { font-size:11px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:var(--gold); margin-bottom:20px; }
+            .deliv-slide h3 { font-family:'DM Serif Display',Georgia,serif; font-size:36px; color:var(--navy); line-height:1.15; margin-bottom:16px; }
+            .deliv-slide p { font-size:15px; color:var(--muted); line-height:1.8; font-weight:300; max-width:340px; }
+            .deliv-dots { position:absolute; bottom:32px; left:50%; transform:translateX(-50%); display:flex; gap:8px; z-index:2; }
+            .deliv-dot { width:6px; height:6px; border-radius:50%; background:rgba(28,51,86,.2); transition:background .3s,transform .3s; }
+            .deliv-dot.active { background:var(--gold); transform:scale(1.4); }
+            .deliv-progress { position:absolute; top:0; left:0; height:3px; background:var(--gold); width:0%; transition:width .15s; z-index:3; }
+            .deliverables .deliv-inner { display:none; }
+        }
+        @media (min-width:901px) {
+            .deliv-sticky-wrap { display:none; }
+            #mobile-canvas { display:none; }
+        }
+
+        /* ── STATEMENT (Boring Co.) ── */
+        .statement {
+            background:#050505; min-height:100vh;
+            display:flex; align-items:center; justify-content:center;
+            padding:80px 56px;
+        }
+        .statement-inner { max-width:900px; }
+        .statement-line {
+            font-family:'DM Serif Display',Georgia,serif;
+            font-size:clamp(42px,7vw,88px);
+            color:rgba(255,255,255,.15);
+            line-height:1.05; display:block;
+            transition:color .8s ease;
+        }
+        .statement-line.gold { color:rgba(198,168,78,.2); }
+        .statement-line.visible { color:rgba(255,255,255,.9); }
+        .statement-line.gold.visible { color:var(--gold); }
+        .statement-sub {
+            font-size:16px; color:rgba(255,255,255,.35);
+            margin-top:32px; font-weight:300; letter-spacing:.5px;
+        }
+        .statement-sub.visible { color:rgba(255,255,255,.6); }
+        @media(max-width:600px){
+            .statement { padding:60px 28px; }
+        }
+
+
+        /* ── TASTY SCROLL SECTION ── */
+        .tasty-section { background:var(--navy); padding:80px 56px; overflow:hidden; }
+        .tasty-inner { max-width:1100px; margin:0 auto; }
+        .tasty-tag { font-size:11px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:var(--gold); margin-bottom:48px; display:block; }
+        .tasty-row { display:grid; grid-template-columns:1fr 1fr; gap:32px; margin-bottom:32px; }
+
+        .tasty-block {
+            background:rgba(255,255,255,.04);
+            border:1px solid rgba(255,255,255,.08);
+            border-radius:8px; padding:36px 28px;
+            transition: opacity .5s cubic-bezier(.16,1,.3,1), transform .55s cubic-bezier(.16,1,.3,1), border-color .4s;
+        }
+        .tasty-block.from-left  { opacity:0; transform:translateX(-80px); }
+        .tasty-block.from-right { opacity:0; transform:translateX(80px); }
+        .tasty-block.in-view    { opacity:1; transform:translateX(0); }
+        .tasty-block.exit-left  { opacity:0; transform:translateX(-40px); }
+        .tasty-block.exit-right { opacity:0; transform:translateX(40px); }
+        .tasty-block.in-view { border-color:rgba(198,168,78,.25); }
+
+        .tasty-icon { font-size:28px; margin-bottom:16px; }
+        .tasty-block h3 { font-size:19px; font-weight:600; color:white; margin-bottom:10px; }
+        .tasty-block p  { font-size:14px; color:rgba(255,255,255,.5); line-height:1.8; font-weight:300; }
+
+        @media(max-width:700px){
+            .tasty-section { padding:60px 24px; }
+            .tasty-row { grid-template-columns:1fr; gap:16px; }
+            .tasty-block.from-left  { transform:translateX(-50px); }
+            .tasty-block.from-right { transform:translateX(50px); }
+        }
+
+
+        /* ── STATS ANIMÉES ── */
+        .stats-section { background:#050505; padding:72px 56px; overflow:hidden; }
+        .stats-inner {
+            max-width:1100px; margin:0 auto;
+            display:grid; grid-template-columns:repeat(4,1fr); gap:2px;
+        }
+        .stat-card {
+            padding:40px 24px; text-align:center;
+            border:1px solid rgba(198,168,78,.12);
+            background:rgba(198,168,78,.03);
+            transition:background .3s, border-color .3s;
+            cursor:default;
+        }
+        .stat-card:hover { background:rgba(198,168,78,.07); border-color:rgba(198,168,78,.3); }
+        .stat-num {
+            font-family:'DM Serif Display',Georgia,serif;
+            font-size:clamp(32px,5vw,56px);
+            color:var(--gold);
+            line-height:1; margin-bottom:12px;
+            transition:transform .1s;
+        }
+        .stat-label { font-size:11px; letter-spacing:2px; text-transform:uppercase; color:rgba(255,255,255,.35); font-weight:500; }
+        .stat-card.counted .stat-num { animation:statPop .3s cubic-bezier(.16,1,.3,1); }
+        @keyframes statPop { 0%{transform:scale(1.15)} 100%{transform:scale(1)} }
+        @media(max-width:700px){
+            .stats-section { padding:48px 24px; }
+            .stats-inner { grid-template-columns:1fr 1fr; }
+        }
+
+        /* ── MENU ANIMÉ ── */
+        .hamburger span {
+            transition: transform .32s cubic-bezier(.16,1,.3,1), opacity .25s ease, background .2s;
+        }
+        #nav-toggle:checked ~ .hamburger span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+        #nav-toggle:checked ~ .hamburger span:nth-child(2) { opacity:0; transform:scaleX(0); }
+        #nav-toggle:checked ~ .hamburger span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+
+        /* Desktop nav: underline animé */
+        nav a:not(.nav-cta) { position:relative; overflow:hidden; }
+        nav a:not(.nav-cta)::after {
+            content:''; position:absolute; bottom:4px; left:50%; right:50%;
+            height:1.5px; background:var(--gold); border-radius:2px;
+            transition: left .3s cubic-bezier(.16,1,.3,1), right .3s cubic-bezier(.16,1,.3,1);
+        }
+        nav a:not(.nav-cta):hover::after { left:14px; right:14px; }
+
+        /* ── CURSEUR ── */
+        .cursor {
+            position: fixed; width: 10px; height: 10px;
+            background: var(--gold); border-radius: 50%;
+            pointer-events: none; z-index: 9999;
+            transform: translate(-50%,-50%);
+            transition: width .3s, height .3s;
+            mix-blend-mode: multiply;
+        }
+        .cursor-ring {
+            position: fixed; width: 40px; height: 40px;
+            border: 1.5px solid rgba(198,168,78,.5);
+            border-radius: 50%; pointer-events: none; z-index: 9998;
+            transform: translate(-50%,-50%);
+            transition: width .3s, height .3s, border-color .3s;
+        }
+        .cursor-glow {
+            position: fixed; width: 400px; height: 400px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(198,168,78,.06) 0%, transparent 70%);
+            pointer-events: none; z-index: 0;
+            transform: translate(-50%,-50%);
+        }
+        a, button { cursor: none; }
+
+        /* ── REVEALS ── */
+        .js-ready .reveal       { opacity:0; transform:translateY(50px); transition: opacity .9s cubic-bezier(.16,1,.3,1), transform .9s cubic-bezier(.16,1,.3,1); }
+        .js-ready .reveal-left  { opacity:0; transform:translateX(-50px); transition: opacity .9s cubic-bezier(.16,1,.3,1), transform .9s cubic-bezier(.16,1,.3,1); }
+        .js-ready .reveal-scale { opacity:0; transform:scale(.88); transition: opacity .9s cubic-bezier(.16,1,.3,1), transform .9s cubic-bezier(.16,1,.3,1); }
+        .reveal.visible, .reveal-left.visible, .reveal-scale.visible { opacity:1!important; transform:none!important; }
+        .d1{transition-delay:.05s} .d2{transition-delay:.15s} .d3{transition-delay:.25s}
+        .d4{transition-delay:.35s} .d5{transition-delay:.45s} .d6{transition-delay:.55s}
+
+        /* ── HEADER ── */
+        header {
+            position: fixed; top:0; left:0; right:0; z-index:500;
+            display:flex; justify-content:space-between; align-items:center;
+            padding: 0 56px; height: 72px;
+            background: rgba(245,243,238,.93);
+            backdrop-filter: blur(14px);
+            border-bottom: 1px solid var(--line);
+            transition: box-shadow .3s;
+        }
+        header.scrolled { box-shadow: 0 4px 32px rgba(0,0,0,.08); }
+
+        .logo { display:flex; align-items:center; gap:12px; text-decoration:none; font-size:20px; font-weight:800; letter-spacing:-.4px; }
+        .logo-icon {
+            width:38px; height:38px;
+            background: linear-gradient(135deg, var(--navy) 0%, #26446a 100%);
+            border-radius:8px; display:flex; justify-content:center; align-items:center;
+            transition: transform .4s cubic-bezier(.34,1.56,.64,1);
+        }
+        .logo:hover .logo-icon { transform: rotate(-8deg) scale(1.08); }
+        .logo-icon svg { width:22px; height:22px; }
+        .logo-name { color:var(--navy); }
+        .logo-name span { color:var(--gold); }
+
+        nav { display:flex; align-items:center; gap:6px; }
+        nav a { padding:8px 14px; text-decoration:none; color:var(--muted); font-size:13px; font-weight:500; border-radius:6px; transition:color .2s, background .2s; }
+        nav a:hover { color:var(--navy); background:rgba(28,51,86,.06); }
+        .nav-cta { background:var(--navy)!important; color:white!important; padding:8px 20px!important; font-weight:600!important; transition:background .2s, transform .2s!important; }
+        .nav-cta:hover { background:#26446a!important; transform:translateY(-1px)!important; }
+
+        .nav-toggle-input { position:absolute; opacity:0; width:0; height:0; pointer-events:none; }
+        .hamburger { display:none; flex-direction:column; gap:5px; border:none; background:none; padding:8px; cursor:pointer; }
+        .hamburger span { display:block; width:22px; height:1.5px; background:var(--navy); border-radius:2px; }
+
+        /* ── HERO ── */
+        .hero {
+            min-height: 100vh;
+            display: grid;
+            grid-template-columns: 1fr 420px;
+            padding-top: 72px;
+        }
+
+        .hero-left {
+            background: var(--cream);
+            padding: 80px 56px;
+            display: flex; flex-direction:column; justify-content:center;
+            position: relative; overflow: hidden;
+        }
+
+        .hero-left::after {
+            content:''; position:absolute; bottom:-60px; right:-60px;
+            width:240px; height:240px;
+            border:1px solid rgba(198,168,78,.1); border-radius:50%;
+            pointer-events:none;
+        }
+
+        .hero-tag {
+            display:inline-flex; align-items:center; gap:10px;
+            font-size:11px; font-weight:600; letter-spacing:2px;
+            text-transform:uppercase; color:var(--gold); margin-bottom:36px;
+            opacity:0; animation: fadeUp .8s cubic-bezier(.16,1,.3,1) .2s forwards;
+        }
+        .hero-tag::before { content:''; width:24px; height:1px; background:var(--gold); }
+
+        .hero-left h1 {
+            font-family:'DM Serif Display', Georgia, serif;
+            font-size:68px; line-height:1.05; color:var(--navy);
+            letter-spacing:-1.5px; margin-bottom:28px;
+            opacity:0; animation: fadeUp .9s cubic-bezier(.16,1,.3,1) .35s forwards;
+        }
+        .hero-left h1 em { font-style:italic; color:var(--gold); }
+
+        .hero-left p {
+            font-size:16px; color:var(--muted); line-height:1.8;
+            font-weight:300; max-width:420px; margin-bottom:48px;
+            opacity:0; animation: fadeUp .9s cubic-bezier(.16,1,.3,1) .5s forwards;
+        }
+
+        .hero-actions {
+            display:flex; gap:14px; flex-wrap:wrap;
+            opacity:0; animation: fadeUp .9s cubic-bezier(.16,1,.3,1) .65s forwards;
+        }
+
+        @keyframes fadeUp {
+            from { opacity:0; transform:translateY(30px); }
+            to   { opacity:1; transform:translateY(0); }
+        }
+
+        .btn-dark {
+            display:inline-block; background:var(--navy); color:white;
+            padding:14px 32px; text-decoration:none; font-size:13px;
+            font-weight:600; border-radius:6px;
+            transition: background .2s, transform .2s, box-shadow .2s;
+        }
+        .btn-dark:hover { background:#26446a; transform:translateY(-2px); box-shadow:0 12px 28px rgba(28,51,86,.3); }
+
+        .btn-line {
+            display:inline-block;
+            border-bottom:1.5px solid var(--navy); color:var(--navy);
+            padding:14px 4px; text-decoration:none; font-size:13px; font-weight:500;
+            transition: color .2s, border-color .2s;
+        }
+        .btn-line:hover { color:var(--gold); border-color:var(--gold); }
+
+        /* Hero right — Three.js canvas */
+        .hero-right {
+            background: var(--navy);
+            position: relative; overflow: hidden;
+            display: flex; flex-direction:column;
+            justify-content:flex-end; align-items:center;
+            padding-bottom: 40px;
+        }
+
+        #three-hero { position:absolute; inset:0; z-index:1; } .hero-right { z-index:1; }
+
+        .hero-stat {
+            position:relative; z-index:2; text-align:center; color:white;
+            opacity:0; animation: fadeUp .9s cubic-bezier(.16,1,.3,1) 1.1s forwards;
+        }
+        .hero-stat strong {
+            display:block;
+            font-family:'DM Serif Display', Georgia, serif;
+            font-size:48px; color:var(--gold); letter-spacing:-1px;
+        }
+        .hero-stat span {
+            font-size:11px; letter-spacing:2px;
+            text-transform:uppercase; color:rgba(255,255,255,.4); font-weight:400;
+        }
+
+        /* ── VALEURS ── */
+        .values {
+            background: var(--navy);
+            border-top: 1px solid rgba(255,255,255,.06);
+            padding: 0 56px;
+        }
+        .values-inner {
+            max-width:1100px; margin:0 auto;
+            display:grid; grid-template-columns:repeat(3,1fr);
+        }
+        .value-item {
+            padding: 44px 0; border-right:1px solid rgba(255,255,255,.06);
+            display:flex; align-items:center; gap:20px;
+            padding-right: 40px; padding-left:40px;
+            transition: background .2s;
+        }
+        .value-item:first-child { padding-left:0; }
+        .value-item:last-child { border-right:none; }
+        .value-item:hover { background: rgba(198,168,78,.04); }
+        .value-icon {
+            width:40px; height:40px; flex-shrink:0;
+            border:1px solid rgba(198,168,78,.3); border-radius:8px;
+            display:flex; justify-content:center; align-items:center;
+        }
+        .value-icon svg { width:18px; height:18px; stroke:var(--gold); fill:none; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+        .value-text strong { display:block; font-size:14px; font-weight:600; color:white; margin-bottom:4px; }
+        .value-text span { font-size:13px; color:rgba(255,255,255,.4); font-weight:300; }
+
+        /* ── DELIVERABLES ── */
+        .deliverables { background:white; padding:60px 56px; }
+        .deliv-inner { max-width:1100px; margin:0 auto; }
+        .deliv-top {
+            display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:end;
+            margin-bottom:64px; padding-bottom:48px; border-bottom:1px solid var(--line);
+        }
+        .deliv-tag { font-size:11px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:var(--gold); margin-bottom:16px; }
+        .deliv-top h2 { font-family:'DM Serif Display',Georgia,serif; font-size:42px; color:var(--navy); line-height:1.15; letter-spacing:-.5px; }
+        .deliv-top p { font-size:15px; color:var(--muted); line-height:1.8; font-weight:300; align-self:center; }
+
+        .deliv-rows { display:flex; flex-direction:column; }
+        .deliv-row {
+            display:grid; grid-template-columns:64px 1fr 1fr; gap:24px;
+            padding:32px 0; border-bottom:1px solid var(--line);
+            align-items:start; transform-style:preserve-3d;
+            will-change:transform; transition:transform .15s ease;
+        }
+        .deliv-row:hover .deliv-num { color:var(--gold); opacity:1; }
+        .deliv-row:hover .deliv-title { color:var(--gold); }
+        .deliv-num { font-family:'DM Serif Display',Georgia,serif; font-size:28px; color:var(--navy); opacity:.2; line-height:1; padding-top:2px; transition:all .3s; }
+        .deliv-title { font-size:16px; font-weight:600; color:var(--navy); transition:color .3s; padding-top:3px; }
+        .deliv-desc { font-size:14px; color:var(--muted); line-height:1.85; font-weight:300; }
+
+        /* ── POURQUOI ── */
+        .why { background:var(--cream); padding:60px 56px; }
+        .why-inner { max-width:1100px; margin:0 auto; }
+        .why-tag { font-size:11px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:var(--gold); margin-bottom:16px; text-align:center; }
+        .why-inner h2 { font-family:'DM Serif Display',Georgia,serif; font-size:42px; color:var(--navy); line-height:1.15; letter-spacing:-.5px; text-align:center; margin-bottom:64px; }
+        .why-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:32px; }
+        .why-card {
+            background:white; border:1px solid var(--line); border-radius:4px;
+            padding:36px 28px; transform-style:preserve-3d;
+            will-change:transform; transition:transform .15s ease, box-shadow .3s;
+        }
+        .why-card:hover { box-shadow:0 20px 40px rgba(28,51,86,.1); }
+        .why-num { font-family:'DM Serif Display',Georgia,serif; font-size:24px; color:var(--gold); margin-bottom:16px; }
+        .why-card h3 { font-size:17px; font-weight:600; color:var(--navy); margin-bottom:12px; }
+        .why-card p { font-size:14px; color:var(--muted); line-height:1.8; font-weight:300; }
+        @media (max-width:900px){ .why-grid { grid-template-columns:1fr 1fr; } }
+        @media (max-width:600px){ .why-grid { grid-template-columns:1fr; } .why-inner h2 { font-size:32px; } }
+
+        /* ── PROCESS ── */
+        .process { background:var(--navy); padding:60px 56px; }
+        .process-inner { max-width:1100px; margin:0 auto; }
+        .process-head { display:flex; align-items:center; gap:24px; margin-bottom:72px; }
+        .process-tag { font-size:11px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:var(--gold); white-space:nowrap; }
+        .process-line { flex:1; height:1px; background:rgba(255,255,255,.1); }
+        .process-head h2 { font-family:'DM Serif Display',Georgia,serif; font-size:40px; color:white; letter-spacing:-.5px; line-height:1.2; white-space:nowrap; }
+        .process-steps { display:grid; grid-template-columns:repeat(3,1fr); }
+        .process-step {
+            padding:48px 40px;
+            border-right:1px solid rgba(255,255,255,.08);
+            border-top:1px solid rgba(255,255,255,.08);
+            transform-style:preserve-3d; will-change:transform;
+            transition:border-color .3s, transform .15s ease;
+            position:relative; overflow:hidden;
+        }
+        .process-step::before { content:''; position:absolute; inset:0; background:rgba(198,168,78,.04); opacity:0; transition:opacity .3s; }
+        .process-step:hover::before { opacity:1; }
+        .process-step:last-child { border-right:none; }
+        .step-num { font-family:'DM Serif Display',Georgia,serif; font-size:56px; color:var(--gold); opacity:.25; line-height:1; margin-bottom:28px; transition:opacity .3s; }
+        .process-step:hover .step-num { opacity:.5; }
+        .process-step h3 { font-size:16px; font-weight:600; color:white; margin-bottom:14px; }
+        .process-step p { font-size:14px; color:rgba(255,255,255,.45); line-height:1.85; font-weight:300; }
+
+
+        /* ── SEO LOCAL ── */
+        .seo-local { background:white; padding:52px 56px; border-top:1px solid var(--line); }
+        .seo-local-inner { max-width:1100px; margin:0 auto; }
+        .seo-tag { font-size:11px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:var(--gold); margin-bottom:16px; }
+        .seo-local h2 { font-family:'DM Serif Display',Georgia,serif; font-size:34px; color:var(--navy); line-height:1.2; margin-bottom:40px; max-width:800px; }
+        .seo-cols { display:grid; grid-template-columns:1fr 1fr; gap:48px; }
+        .seo-col p { font-size:15px; color:var(--muted); line-height:1.85; font-weight:300; margin-bottom:16px; }
+        .seo-col p strong { color:var(--navy); font-weight:600; }
+        @media (max-width:700px){ .seo-cols { grid-template-columns:1fr; } .seo-local h2 { font-size:26px; } }
+
+
+        /* ── PROCESS 3D ── */
+        .process-step {
+            perspective:800px;
+        }
+        .process-step-wrap {
+            transition:transform .6s cubic-bezier(.16,1,.3,1), opacity .5s ease, box-shadow .3s;
+            transform:perspective(800px) rotateY(-25deg) translateX(-20px);
+            opacity:0;
+            border-radius:8px;
+            padding:32px;
+            background:rgba(255,255,255,.04);
+            border:1px solid rgba(255,255,255,.08);
+        }
+        .process-step.from-right .process-step-wrap {
+            transform:perspective(800px) rotateY(25deg) translateX(20px);
+        }
+        .process-step.in-view .process-step-wrap {
+            transform:perspective(800px) rotateY(0deg) translateX(0);
+            opacity:1;
+            border-color:rgba(198,168,78,.2);
+        }
+        .process-step.in-view .process-step-wrap:hover {
+            transform:perspective(800px) rotateY(5deg) translateY(-4px);
+            box-shadow:0 20px 60px rgba(198,168,78,.15);
+        }
+
+        /* ── FAQ ── */
+        .faq { background:var(--cream); padding:60px 56px; }
+        .faq-inner { max-width:800px; margin:0 auto; }
+        .faq-header { text-align:center; margin-bottom:64px; }
+        .faq-tag { font-size:11px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:var(--gold); margin-bottom:14px; }
+        .faq-header h2 { font-family:'DM Serif Display',Georgia,serif; font-size:38px; color:var(--navy); letter-spacing:-.5px; }
+
+        .faq-item { border-bottom:1px solid var(--line); }
+        .faq-question {
+            padding:28px 0; display:flex; justify-content:space-between; align-items:center;
+            font-size:16px; font-weight:600; color:var(--navy); gap:24px;
+            transition: color .2s;
+        }
+        .faq-question:hover { color:var(--gold); }
+        .faq-question .faq-icon {
+            width:28px; height:28px; flex-shrink:0;
+            border:1.5px solid var(--line); border-radius:50%;
+            display:flex; justify-content:center; align-items:center;
+            transition: transform .4s cubic-bezier(.16,1,.3,1), border-color .2s, background .2s;
+        }
+        .faq-question .faq-icon svg { width:12px; height:12px; stroke:var(--navy); fill:none; stroke-width:2.5; stroke-linecap:round; transition:stroke .2s; }
+        .faq-item.open .faq-icon { transform:rotate(45deg); border-color:var(--gold); background:var(--gold); }
+        .faq-item.open .faq-icon svg { stroke:white; }
+        .faq-answer { max-height:0; overflow:hidden; transition:max-height .5s cubic-bezier(.16,1,.3,1), padding .4s; }
+        .faq-answer p { font-size:15px; color:var(--muted); line-height:1.8; font-weight:300; padding-bottom:28px; }
+        .faq-item.open .faq-answer { max-height:200px; }
+
+
+
+        /* ── EDGE ANIMATIONS (tastycrousty style) ── */
+        .from-left {
+            opacity:0;
+            transform:translateX(-80px);
+            transition:opacity .5s cubic-bezier(.16,1,.3,1), transform .55s cubic-bezier(.16,1,.3,1);
+        }
+        .from-right {
+            opacity:0;
+            transform:translateX(80px);
+            transition:opacity .5s cubic-bezier(.16,1,.3,1), transform .55s cubic-bezier(.16,1,.3,1);
+        }
+        .from-left.edge-visible,
+        .from-right.edge-visible { opacity:1; transform:translateX(0); }
+        .from-left.edge-exit { opacity:0; transform:translateX(-40px);
+            transition:opacity .3s ease, transform .3s ease; }
+        .from-right.edge-exit { opacity:0; transform:translateX(40px);
+            transition:opacity .3s ease, transform .3s ease; }
+
+        /* Délais cascade */
+        .from-left.d1, .from-right.d1 { transition-delay:0s; }
+        .from-left.d2, .from-right.d2 { transition-delay:.1s; }
+        .from-left.d3, .from-right.d3 { transition-delay:.2s; }
+
+        /* Décors flottants depuis les bords */
+        .edge-deco {
+            position:absolute;
+            border-radius:50%;
+            pointer-events:none;
+            transition:transform 1.2s cubic-bezier(.16,1,.3,1), opacity 1s;
+        }
+
+        /* Section SEO local : éléments bord gauche/droit */
+        .seo-local { position:relative; overflow:hidden; }
+        .seo-col:first-child { transition-delay:.05s; }
+        .seo-col:last-child  { transition-delay:.18s; }
+
+        /* ── WHY ANIMATED (scroll-driven) ── */
+        .why-animated {
+            opacity: 0;
+            transform: translateY(60px) scale(.96);
+            transition:
+                opacity .32s cubic-bezier(.16,1,.3,1),
+                transform .38s cubic-bezier(.16,1,.3,1),
+                box-shadow .3s;
+            will-change: transform, opacity;
+        }
+        .why-animated.in-view {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+        }
+        .why-animated.exit-up {
+            opacity: 0;
+            transform: translateY(-25px) scale(.97);
+            transition: opacity .22s ease, transform .22s ease;
+        }
+        /* Délais en cascade */
+        .why-animated[data-why="0"].in-view { transition-delay: 0s; }
+        .why-animated[data-why="1"].in-view { transition-delay: .08s; }
+        .why-animated[data-why="2"].in-view { transition-delay: .16s; }
+        .why-animated[data-why="3"].in-view { transition-delay: .24s; }
+
+        /* Mobile: cartes arrivent depuis les côtés alternés */
+        @media (max-width:900px) {
+            .why-animated[data-why="0"],
+            .why-animated[data-why="2"] {
+                transform: translateX(-60px) scale(.97);
+            }
+            .why-animated[data-why="1"],
+            .why-animated[data-why="3"] {
+                transform: translateX(60px) scale(.97);
+            }
+            .why-animated.in-view {
+                transform: translateX(0) scale(1) !important;
+            }
+            .why-animated.exit-up {
+                transform: translateY(-20px) scale(.97) !important;
+            }
+            /* Cartes plein largeur sur mobile avec bordure gauche animée */
+            .why-card {
+                border-left: 3px solid transparent;
+                transition: border-color .4s .2s;
+            }
+            .why-animated.in-view.why-card {
+                border-left-color: var(--gold);
+            }
+        }
+
+        /* ── CONTACT ── */
+        .contact { background:var(--navy); padding:112px 56px; text-align:center; position:relative; overflow:hidden; }
+        .contact::before {
+            content:''; position:absolute; top:50%; left:50%;
+            transform:translate(-50%,-50%);
+            width:600px; height:600px;
+            background:radial-gradient(circle, rgba(198,168,78,.07) 0%, transparent 65%);
+            pointer-events:none;
+        }
+        .contact-inner { max-width:600px; margin:0 auto; position:relative; z-index:1; }
+        .contact-tag { font-size:11px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:var(--gold); margin-bottom:24px; }
+        .contact h2 { font-family:'DM Serif Display',Georgia,serif; font-size:52px; color:white; line-height:1.1; letter-spacing:-1px; margin-bottom:20px; }
+        .contact-sub { font-size:15px; color:rgba(255,255,255,.5); font-weight:300; line-height:1.75; margin-bottom:52px; }
+        .contact-email-link {
+            display:inline-block; font-size:15px; letter-spacing:.5px;
+            color:var(--gold); text-decoration:none;
+            border-bottom:1px solid rgba(198,168,78,.35); padding-bottom:3px; margin-bottom:44px;
+            transition: letter-spacing .3s, border-color .2s;
+        }
+        .contact-email-link:hover { letter-spacing:1.5px; border-color:var(--gold); }
+
+
+        /* ── FORMULAIRE CONTACT ── */
+        .contact-form { width:100%; max-width:680px; margin:32px auto 0; text-align:left; }
+        .bot-field { display:none; }
+        .form-row { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:16px; }
+        .form-group { display:flex; flex-direction:column; gap:8px; margin-bottom:16px; }
+        .form-group label { font-size:12px; font-weight:600; letter-spacing:.5px; text-transform:uppercase; color:rgba(255,255,255,.5); }
+        .form-group input,
+        .form-group textarea {
+            background:rgba(255,255,255,.06);
+            border:1px solid rgba(255,255,255,.15);
+            border-radius:4px;
+            padding:14px 16px;
+            color:white;
+            font-family:'Inter',sans-serif;
+            font-size:14px;
+            font-weight:300;
+            transition:border-color .25s;
+            resize:none;
+        }
+        .form-group input:focus,
+        .form-group textarea:focus { outline:none; border-color:var(--gold); }
+        .form-group input::placeholder,
+        .form-group textarea::placeholder { color:rgba(255,255,255,.25); }
+        .form-submit {
+            width:100%;
+            background:var(--gold);
+            color:#111;
+            border:none;
+            padding:16px 32px;
+            font-size:14px;
+            font-weight:600;
+            letter-spacing:.5px;
+            border-radius:4px;
+            cursor:pointer;
+            transition:background .25s, transform .15s;
+        }
+        .form-submit:hover { background:var(--goldl); transform:translateY(-2px); }
+        @media (max-width:600px){ .form-row { grid-template-columns:1fr; } }
+
+        /* ── FOOTER ── */
+        .nav-social { display:flex; gap:14px; align-items:center; margin-left:8px; }
+        .nav-social a { color:var(--navy); opacity:.5; transition:opacity .25s, color .25s; line-height:0; display:flex; }
+        .nav-social a:hover { opacity:1; color:var(--gold); }
+        .footer-social { display:flex; gap:16px; align-items:center; }
+        .footer-social a { color:white; opacity:.4; transition:opacity .25s, color .25s; line-height:0; display:flex; }
+        .footer-social a:hover { opacity:1; color:var(--gold); }
+        footer { background:#0f1e30; padding:32px 56px; display:flex; justify-content:space-between; align-items:center; gap:24px; }
+        footer p { font-size:12px; color:rgba(255,255,255,.3); }
+        .footer-logo { font-size:13px; font-weight:700; color:rgba(255,255,255,.4); letter-spacing:1px; }
+        .footer-logo span { color:var(--gold); }
+
+        /* ── RESPONSIVE ── */
+        @media (max-width:900px) {
+            body { cursor:auto; }
+            .cursor, .cursor-ring, .cursor-glow { display:none; }
+            a, button { cursor:pointer; }
+            header { padding:0 24px; } /* reste position:fixed, pas position:relative */
+            /* ── NAV PANNEAU LATÉRAL — fiable ── */
+            .hamburger { display:flex; position:relative; z-index:501; }
+            nav {
+                position:fixed; top:72px; right:0; bottom:0;
+                width:280px; z-index:490;
+                background:var(--navy);
+                display:flex; flex-direction:column;
+                padding:32px 24px; gap:4px;
+                transform:translateX(100%);
+                transition:transform .35s cubic-bezier(.16,1,.3,1);
+                box-shadow:-8px 0 40px rgba(0,0,0,.3);
+            }
+            #nav-toggle:checked ~ nav { transform:translateX(0); }
+            nav a {
+                color:rgba(255,255,255,.7);
+                font-size:16px; font-weight:400;
+                padding:14px 0;
+                border-bottom:1px solid rgba(255,255,255,.08);
+                text-decoration:none; display:block;
+            }
+            nav a:hover { color:var(--gold); }
+            nav a.nav-cta {
+                margin-top:16px; border-bottom:none;
+                background:var(--gold); color:#111;
+                padding:14px 20px; border-radius:4px;
+                font-weight:700; font-size:14px; text-align:center;
+            }
+            nav .nav-social { margin-top:20px; gap:16px; display:flex; border:none; }
+            nav .nav-social a { border:none; padding:0; color:rgba(255,255,255,.4); }
+            nav .nav-social a:hover { color:var(--gold); }
+            #nav-toggle:checked ~ .hamburger span:nth-child(1) { transform:translateY(6.5px) rotate(45deg); }
+            #nav-toggle:checked ~ .hamburger span:nth-child(2) { opacity:0; transform:scaleX(0); }
+            #nav-toggle:checked ~ .hamburger span:nth-child(3) { transform:translateY(-6.5px) rotate(-45deg); }
+            /* Fond sombre cliquable pour fermer (CSS pur) */
+            .nav-toggle-input:checked ~ .nav-backdrop {
+                display:block; opacity:1;
+            }
+            .nav-backdrop {
+                display:none; opacity:0;
+                position:fixed; inset:0; top:72px; z-index:480;
+                background:rgba(0,0,0,.35);
+                transition:opacity .3s;
+            }
+            /* Bloque le scroll de la page quand le menu est ouvert (navigateurs modernes) */
+            body:has(#nav-toggle:checked) { overflow:hidden; }
+            .hero { grid-template-columns:1fr; min-height:100svh; display:flex; flex-direction:column; }
+            .hero-left { padding:80px 24px 40px; min-height:65vh; justify-content:flex-start; }
+            .hero-left h1 { font-size:38px; letter-spacing:-.5px; }
+            .hero-right { display:none; }
+            .hero-mobile-anim { display:flex; min-height:200px; }
+            .values { padding:0 24px; }
+            .values-inner { grid-template-columns:1fr; }
+            .value-item { border-right:none; border-bottom:1px solid rgba(255,255,255,.06); padding-left:0; }
+            .deliverables { padding:72px 24px; }
+            .deliv-top { grid-template-columns:1fr; gap:16px; }
+            .deliv-row { grid-template-columns:48px 1fr; grid-template-rows:auto auto; }
+            .deliv-desc { grid-column:2; }
+            .deliv-num { font-size:22px; }
+            .process { padding:72px 24px; }
+            .process-steps { grid-template-columns:1fr; }
+            .process-step { border-right:none; }
+            .process-head { flex-wrap:wrap; }
+            .process-head h2 { white-space:normal; font-size:30px; }
+            .faq { padding:72px 24px; }
+            .contact { padding:80px 24px; }
+            .contact h2 { font-size:36px; }
+            footer { padding:28px 24px; flex-direction:column; gap:10px; text-align:center; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursor-ring"></div>
+<div class="cursor-glow" id="cursor-glow"></div>
+
+<!-- FLOATING CTA -->
+<a href="#contact" class="float-cta" aria-label="Demander un devis">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+    <span>Devis gratuit</span>
+</a>
+
+<!-- HEADER -->
+<header id="header">
+    <a href="#" class="logo">
+        <div class="logo-icon">
+            <svg viewBox="0 0 40 40" fill="none">
+                <path d="M12 24 L20 14 L28 22" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M24 10 L30 10 L30 16" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="20" cy="28" r="2" fill="white"/>
+            </svg>
+        </div>
+        <span class="logo-name">Charle<span>Link</span></span>
+    </a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+    <label for="nav-toggle" class="hamburger" id="hamburger-btn" aria-label="Menu">
+        <span></span><span></span><span></span>
+    </label>
+    <nav id="main-nav">
+        <a href="#livraison">Prestations</a>
+        <a href="#pourquoi">Pourquoi nous</a>
+        <a href="#methode">Méthode</a>
+        <a href="#faq">FAQ</a>
+        <a href="#a-propos">À propos</a>
+        <a href="#contact" class="nav-cta">Devis gratuit</a>
+        <div class="nav-social">
+            <a href="https://www.instagram.com/charlelink" target="_blank" rel="noopener" aria-label="Instagram CharleLink">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://www.facebook.com/share/1DTS4Xe7Vr/" target="_blank" rel="noopener" aria-label="Facebook CharleLink">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+        </div>
+    </nav>
+    <label for="nav-toggle" class="nav-backdrop" aria-hidden="true"></label>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+    <div class="hero-left" id="hero-left">
+        <div class="hero-tag">Création de site web · Charleroi</div>
+        <h1>Votre site web à <em>Charleroi</em>,<br>enfin à la<br>hauteur.</h1>
+        <p>Nous concevons des sites professionnels, rapides et optimisés — conçus pour convertir vos visiteurs en clients.</p>
+        <div class="hero-actions">
+            <a href="#contact" class="btn-dark">Demander un devis</a>
+            <a href="#livraison" class="btn-line">Voir nos prestations</a>
+        </div>
+    </div>
+    <div class="hero-right" id="hero-right">
+        <div id="three-hero"></div>
+        <div class="hero-stat">
+            <strong id="counter-num">0%</strong>
+            <span>Sur mesure</span>
+        </div>
+    </div>
+    <!-- mobile only animated background block -->
+    <div class="hero-3d-shapes" aria-hidden="true">
+        <div class="shape3d"></div>
+        <div class="shape3d"></div>
+        <div class="shape3d"></div>
+        <div class="shape3d"></div>
+        <div class="shape3d"></div>
+    </div>
+    <div class="hero-mobile-anim" id="hero-mobile-anim">
+        <div class="orb orb1"></div>
+        <div class="orb orb2"></div>
+        <div class="orb orb3"></div>
+        <div class="hero-mobile-ring ring1"></div>
+        <div class="hero-mobile-ring ring2"></div>
+        <div class="hero-mobile-ring ring3"></div>
+        <div class="hero-mobile-stat">
+            <strong>100%</strong>
+            <span>Sur mesure</span>
+        </div>
+    </div>
+</section>
+
+<!-- STRIP CONTACT -->
+<div class="contact-strip">
+    <span class="strip-text">Disponible <strong>24h/24 · 7j/7</strong> — Réponse garantie le jour même</span>
+    <a href="#contact" class="strip-btn">Demandez votre devis gratuit →</a>
+    <a href="mailto:charlelink6000@gmail.com" class="strip-email">charlelink6000@gmail.com</a>
+</div>
+
+<!-- STATS ANIMÉES -->
+<section class="stats-section" id="stats">
+    <div class="stats-inner">
+        <div class="stat-card" data-count="100" data-suffix="%" data-label="Sur mesure">
+            <div class="stat-num" id="stat-0">0%</div>
+            <div class="stat-label">Sur mesure</div>
+        </div>
+        <div class="stat-card" data-count="24" data-suffix="h/24" data-label="Disponible">
+            <div class="stat-num" id="stat-1">0h/24</div>
+            <div class="stat-label">Disponible</div>
+        </div>
+        <div class="stat-card" data-count="2" data-suffix=" sem." data-label="Délai maximum">
+            <div class="stat-num" id="stat-2">0 sem.</div>
+            <div class="stat-label">Délai maximum</div>
+        </div>
+        <div class="stat-card" data-count="0" data-suffix="€" data-label="Frais cachés">
+            <div class="stat-num" id="stat-3">0€</div>
+            <div class="stat-label">Frais cachés</div>
+        </div>
+    </div>
+</section>
+
+
+<!-- VALEURS -->
+<div class="values reveal">
+    <div class="values-inner">
+        <div class="value-item">
+            <div class="value-icon"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+            <div class="value-text"><strong>Design unique</strong><span>Aucun template générique</span></div>
+        </div>
+        <div class="value-item">
+            <div class="value-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+            <div class="value-text"><strong>Livraison rapide</strong><span>En 1 à 2 semaines</span></div>
+        </div>
+        <div class="value-item">
+            <div class="value-icon"><svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+            <div class="value-text"><strong>Satisfaction garantie</strong><span>Vous validez chaque étape</span></div>
+        </div>
+    </div>
+</div>
+
+<!-- DELIVERABLES -->
+<section class="deliverables" id="livraison">
+    <div class="deliv-inner">
+        <div class="deliv-top">
+            <div class="reveal">
+                <p class="deliv-tag">Nos prestations</p>
+                <h2>Ce que nous livrons, sans compromis.</h2>
+            </div>
+            <p class="reveal d2">Chaque site est conçu sur mesure selon votre activité. Pas de template générique, pas de raccourcis.</p>
+        </div>
+        <div class="deliv-rows">
+            <div class="deliv-row from-left d1"><div class="deliv-num">01</div><div class="deliv-title">Design sur mesure</div><p class="deliv-desc">Un design pensé pour votre secteur et votre image. Chaque élément visuel est choisi pour servir votre positionnement.</p></div>
+            <div class="deliv-row from-right d2"><div class="deliv-num">02</div><div class="deliv-title">100 % responsive</div><p class="deliv-desc">Votre site s'affiche parfaitement sur mobile, tablette et ordinateur. La majorité de vos clients vous trouveront depuis leur téléphone.</p></div>
+            <div class="deliv-row from-left d3"><div class="deliv-num">03</div><div class="deliv-title">Optimisé pour Google</div><p class="deliv-desc">Structure SEO propre dès la conception : balises sémantiques, vitesse de chargement et balisage technique correctement mis en place.</p></div>
+            <div class="deliv-row from-right d1"><div class="deliv-num">04</div><div class="deliv-title">Chargement rapide</div><p class="deliv-desc">Un site lent dissuade vos visiteurs. Nous optimisons chaque page pour un chargement en moins de 2 secondes.</p></div>
+            <div class="deliv-row from-left d2"><div class="deliv-num">05</div><div class="deliv-title">Formulaire de contact</div><p class="deliv-desc">Vos visiteurs vous contactent directement depuis le site. Chaque demande vous est transmise par e-mail instantanément.</p></div>
+            <div class="deliv-row from-right d3"><div class="deliv-num">06</div><div class="deliv-title">Mise en ligne complète</div><p class="deliv-desc">Hébergement, nom de domaine, mise en ligne. Vous recevez votre site opérationnel, sans rien à configurer.</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- SCROLL-DRIVEN PRESTATIONS mobile -->
+<div class="deliv-sticky-wrap" id="deliv-sticky-wrap">
+    <div class="deliv-sticky-inner">
+        <div class="deliv-sticky-bg"></div>
+        <div class="deliv-progress" id="deliv-progress"></div>
+        <div class="deliv-slide active" data-slide="0"><div class="deliv-slide-num">01</div><div class="deliv-slide-label">Design</div><h3>Sur mesure,<br>rien d'autre.</h3><p>Chaque élément visuel est pensé pour votre secteur. Aucun template générique.</p></div>
+        <div class="deliv-slide" data-slide="1"><div class="deliv-slide-num">02</div><div class="deliv-slide-label">Responsive</div><h3>Parfait sur<br>tous les écrans.</h3><p>Mobile, tablette, ordinateur. La majorité de vos clients vous trouvent depuis leur téléphone.</p></div>
+        <div class="deliv-slide" data-slide="2"><div class="deliv-slide-num">03</div><div class="deliv-slide-label">SEO</div><h3>Optimisé<br>pour Google.</h3><p>Structure sémantique propre, vitesse de chargement, balisage technique dès la conception.</p></div>
+        <div class="deliv-slide" data-slide="3"><div class="deliv-slide-num">04</div><div class="deliv-slide-label">Performance</div><h3>Moins de<br>2 secondes.</h3><p>Chaque page est optimisée pour charger à la vitesse de la lumière.</p></div>
+        <div class="deliv-slide" data-slide="4"><div class="deliv-slide-num">05</div><div class="deliv-slide-label">Contact</div><h3>Vos clients<br>vous écrivent.</h3><p>Formulaire intégré — chaque demande arrive directement dans votre boîte mail.</p></div>
+        <div class="deliv-slide" data-slide="5"><div class="deliv-slide-num">06</div><div class="deliv-slide-label">Mise en ligne</div><h3>Clé en<br>main, complet.</h3><p>Hébergement, domaine, mise en ligne. Votre site opérationnel, sans rien configurer.</p></div>
+        <div class="deliv-dots" id="deliv-dots">
+            <div class="deliv-dot active"></div><div class="deliv-dot"></div><div class="deliv-dot"></div>
+            <div class="deliv-dot"></div><div class="deliv-dot"></div><div class="deliv-dot"></div>
+        </div>
+    </div>
+</div>
+
+<!-- POURQUOI -->
+<section class="why" id="pourquoi">
+    <div class="why-inner">
+        <div class="why-tag reveal">Pourquoi CharleLink</div>
+        <h2 class="reveal">Ce qui nous différencie</h2>
+        <div class="why-grid">
+            <div class="why-card why-animated" data-why="0">
+                <div class="why-num">01</div>
+                <h3>Tarifs adaptés à votre budget</h3>
+                <p>Nos prix restent toujours en dessous du marché, avec une offre ajustée à la réalité de chaque projet.</p>
+            </div>
+            <div class="why-card why-animated" data-why="1">
+                <div class="why-num">02</div>
+                <h3>Livraison en 1 à 2 semaines</h3>
+                <p>Pas de mois d'attente. Votre site est en ligne rapidement, sans sacrifier la qualité.</p>
+            </div>
+            <div class="why-card why-animated" data-why="2">
+                <div class="why-num">03</div>
+                <h3>Un interlocuteur direct</h3>
+                <p>Vous parlez directement à la personne qui conçoit votre site, du premier échange à la mise en ligne.</p>
+            </div>
+            <div class="why-card why-animated" data-why="3">
+                <div class="why-num">04</div>
+                <h3>Aucune mauvaise surprise</h3>
+                <p>Design sur mesure, hébergement inclus, rien à configurer de votre côté. Le site que vous voyez est celui que vous recevez.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- STATEMENT (Boring Co. style) -->
+<section class="statement" id="statement">
+    <div class="statement-inner">
+        <div class="statement-line reveal-word">Un site web n'est pas</div>
+        <div class="statement-line reveal-word gold">une dépense.</div>
+        <div class="statement-line reveal-word">C'est votre</div>
+        <div class="statement-line reveal-word gold">meilleur commercial.</div>
+        <div class="statement-sub reveal">Disponible 24h/24. Sans salaire.</div>
+    </div>
+</section>
+
+
+<!-- TASTY SCROLL SECTION -->
+<section class="tasty-section" id="tasty">
+    <div class="tasty-inner">
+        <div class="tasty-tag reveal">Pourquoi choisir CharleLink</div>
+        <div class="tasty-row">
+            <div class="tasty-block from-left">
+                <div class="tasty-icon">⚡</div>
+                <h3>Réponse en moins d'1h</h3>
+                <p>Disponible 24h/24, 7j/7. Pas de répondeur, pas d'attente. Vous envoyez un message, vous recevez une réponse.</p>
+            </div>
+            <div class="tasty-block from-right">
+                <div class="tasty-icon">💰</div>
+                <h3>Toujours moins cher</h3>
+                <p>Nos tarifs sont systématiquement inférieurs aux agences de la région, sans compromis sur la qualité.</p>
+            </div>
+        </div>
+        <div class="tasty-row">
+            <div class="tasty-block from-left">
+                <div class="tasty-icon">🚀</div>
+                <h3>Livré en 1 à 2 semaines</h3>
+                <p>Pas de mois d'attente. Votre site est en ligne rapidement, testé, optimisé, prêt à convertir.</p>
+            </div>
+            <div class="tasty-block from-right">
+                <div class="tasty-icon">🎯</div>
+                <h3>Un seul interlocuteur</h3>
+                <p>Vous parlez directement à la personne qui fait le site. Du premier échange à la mise en ligne.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- PROCESS -->
+<section class="process" id="methode">
+    <div class="process-inner">
+        <div class="process-head reveal">
+            <p class="process-tag">Notre méthode</p>
+            <div class="process-line"></div>
+            <h2>Simple. Clair. Efficace.</h2>
+        </div>
+        <div class="process-steps">
+            <div class="process-step from-left d1"><div class="process-step-wrap"><div class="step-num">01</div><h3>On écoute votre projet</h3><p>Vous nous expliquez votre activité, vos clients et vos objectifs. On prend note avant de produire quoi que ce soit.</p></div></div>
+            <div class="process-step from-left d2"><div class="process-step-wrap"><div class="step-num">02</div><h3>On conçoit et on développe</h3><p>On construit votre site et on vous le soumet à chaque étape clé. Vous validez avant qu'on avance.</p></div></div>
+            <div class="process-step from-right d1"><div class="process-step-wrap"><div class="step-num">03</div><h3>On livre et on met en ligne</h3><p>Une fois validé, on gère tout : hébergement, domaine, mise en ligne. Votre site est opérationnel sans délai.</p></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+    <div class="faq-inner">
+        <div class="faq-header reveal">
+            <p class="faq-tag">Questions fréquentes</p>
+            <h2>Tout ce que vous voulez savoir.</h2>
+        </div>
+        <div class="faq-item reveal d1">
+            <div class="faq-question"><span>Combien coûte la création d'un site web ?</span><span class="faq-icon"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></div>
+            <div class="faq-answer"><p>Le tarif dépend de vos besoins et de la complexité du projet. Contactez-nous pour un devis gratuit et personnalisé — sans engagement.</p></div>
+        </div>
+        <div class="faq-item reveal d2">
+            <div class="faq-question"><span>Quel est le délai de livraison ?</span><span class="faq-icon"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></div>
+            <div class="faq-answer"><p>En règle générale, un site est livré en 1 à 2 semaines selon sa complexité. Nous vous tenons informé à chaque étape.</p></div>
+        </div>
+        <div class="faq-item reveal d3">
+            <div class="faq-question"><span>Puis-je modifier mon site après la livraison ?</span><span class="faq-icon"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></div>
+            <div class="faq-answer"><p>Oui. Nous vous accompagnons pour la prise en main. Des options de mise à jour et de maintenance sont également disponibles sur demande.</p></div>
+        </div>
+        <div class="faq-item reveal d4">
+            <div class="faq-question"><span>Est-ce que mon site sera visible sur Google ?</span><span class="faq-icon"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></div>
+            <div class="faq-answer"><p>Chaque site est construit avec une structure SEO propre dès le départ. Cela pose les bases d'un bon référencement naturel sur Google.</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- SEO LOCAL -->
+<section class="seo-local" id="a-propos">
+    <div class="seo-local-inner">
+        <div class="seo-tag reveal">Agence web Charleroi</div>
+        <h2 class="reveal">Création de site web à Charleroi — rapide, abordable, disponible 24h/24</h2>
+        <div class="seo-cols reveal">
+            <div class="seo-col from-left">
+                <p>CharleLink est une agence web basée à Charleroi qui conçoit des sites internet professionnels pour les indépendants et petites entreprises de la région. Contrairement à la plupart des agences web à Charleroi, nous livrons votre site en <strong>1 à 2 semaines</strong> — pas en deux mois.</p>
+                <p>Nous sommes disponibles <strong>7j/7, 24h/24</strong>, week-ends et jours fériés inclus. Pas de répondeur, pas de délai. Vous posez une question, vous obtenez une réponse.</p>
+            </div>
+            <div class="seo-col from-right">
+                <p>Nos tarifs sont <strong>systématiquement inférieurs aux agences web de Charleroi</strong>, sans compromis sur la qualité : design sur mesure, site responsive, optimisé pour Google, hébergement inclus.</p>
+                <p>Vous cherchez une agence web sérieuse à Charleroi, Liège ou dans le Hainaut ? Demandez un devis gratuit — réponse garantie le jour même.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+    <div class="contact-inner reveal-scale">
+        <p class="contact-tag">Contact</p>
+        <h2>Parlons de votre projet.</h2>
+        <p class="contact-sub">Disponible 24h/24 — réponse garantie le jour même.</p>
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
+            <input type="hidden" name="form-name" value="contact">
+            <p class="bot-field"><label>Ne pas remplir : <input name="bot-field"></label></p>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Votre nom</label>
+                    <input type="text" id="name" name="name" placeholder="Jean Dupont" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Votre email</label>
+                    <input type="email" id="email" name="email" placeholder="jean@exemple.com" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Votre projet</label>
+                <textarea id="message" name="message" rows="4" placeholder="Décrivez votre projet en quelques mots..." required></textarea>
+            </div>
+            <button type="submit" class="form-submit">Envoyer ma demande &rarr;</button>
+        </form>
+        <p class="contact-or">ou écrivez-nous directement à</p>
+        <a href="mailto:charlelink6000@gmail.com" class="contact-email-link">charlelink6000@gmail.com</a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-left">
+        <p>&copy; 2026 CharleLink — Charleroi, Belgique</p>
+        <a href="mailto:charlelink6000@gmail.com" class="footer-email">charlelink6000@gmail.com</a>
+    </div>
+    <div class="footer-social">
+        <a href="https://www.instagram.com/charlelink" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="https://www.facebook.com/share/1DTS4Xe7Vr/" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+    </div>
+    <span class="footer-logo">Charle<span>Link</span></span>
+</footer>
+
+<!-- Three.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+
+<script>
+/* ── CURSEUR ── */
+const cursor = document.getElementById('cursor');
+const ring   = document.getElementById('cursor-ring');
+const glow   = document.getElementById('cursor-glow');
+let mx=0, my=0, rx=0, ry=0;
+
+document.addEventListener('mousemove', e => {
+    mx = e.clientX; my = e.clientY;
+    cursor.style.left = mx+'px'; cursor.style.top = my+'px';
+    glow.style.left   = mx+'px'; glow.style.top  = my+'px';
+    heroMouseX = (e.clientX/window.innerWidth  - .5) * 2;
+    heroMouseY = (e.clientY/window.innerHeight - .5) * 2;
+});
+
+(function animRing(){
+    rx += (mx-rx)*.13; ry += (my-ry)*.13;
+    ring.style.left = rx+'px'; ring.style.top = ry+'px';
+    requestAnimationFrame(animRing);
+})();
+
+document.querySelectorAll('a,button').forEach(el=>{
+    el.addEventListener('mouseenter',()=>{ cursor.style.width='16px'; cursor.style.height='16px'; ring.style.width='64px'; ring.style.height='64px'; ring.style.borderColor='rgba(198,168,78,.8)'; });
+    el.addEventListener('mouseleave',()=>{ cursor.style.width=''; cursor.style.height=''; ring.style.width=''; ring.style.height=''; ring.style.borderColor=''; });
+});
+
+/* ── TESSERACT 4D — REAL 4D HYPERCUBE ── */
+let heroMouseX = 0, heroMouseY = 0;
+let targetRX = 0, targetRY = 0;
+
+try { (function initThree(){
+    const container = document.getElementById('three-hero');
+    if (!container) return;
+    const W = container.offsetWidth || 420;
+    const H = container.offsetHeight || window.innerHeight - 72;
+
+    const scene  = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(50, W/H, 0.1, 100);
+    camera.position.z = 5;
+
+    const renderer = new THREE.WebGLRenderer({ antialias:true, alpha:true });
+    renderer.setSize(W, H);
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
+    renderer.setClearColor(0x000000, 0);
+    Object.assign(renderer.domElement.style,
+        { position:'absolute', inset:'0', width:'100%', height:'100%', zIndex:'1' });
+    container.appendChild(renderer.domElement);
+
+    /* ── TESSERACT 4D (vrai hypercube en 4 dimensions) ── */
+    /* 16 sommets: toutes combinaisons (±1, ±1, ±1, ±1) */
+    const verts4D = [];
+    for (let i = 0; i < 16; i++)
+        verts4D.push([(i&1)?1:-1, (i&2)?1:-1, (i&4)?1:-1, (i&8)?1:-1]);
+
+    /* 32 arêtes: sommets différant en exactement 1 coordonnée */
+    const edges = [];
+    for (let i = 0; i < 16; i++)
+        for (let j = i+1; j < 16; j++) {
+            let d = 0;
+            for (let k = 0; k < 4; k++) if (verts4D[i][k] !== verts4D[j][k]) d++;
+            if (d === 1) edges.push([i, j]);
+        }
+
+    const edgeCount = edges.length; // 32
+    const tessPos  = new Float32Array(edgeCount * 6);
+    const glowPos  = new Float32Array(edgeCount * 6);
+
+    const tessGeom = new THREE.BufferGeometry();
+    tessGeom.setAttribute('position', new THREE.BufferAttribute(tessPos, 3));
+    const tessLines = new THREE.LineSegments(tessGeom,
+        new THREE.LineBasicMaterial({ color:0xC6A84E, transparent:true, opacity:.95 }));
+    tessLines.scale.setScalar(1.25);
+    scene.add(tessLines);
+
+    /* Halo doré (même géom, scale légèrement plus grande) */
+    const glowGeom = new THREE.BufferGeometry();
+    glowGeom.setAttribute('position', new THREE.BufferAttribute(glowPos, 3));
+    const glowLines = new THREE.LineSegments(glowGeom,
+        new THREE.LineBasicMaterial({ color:0xD4B86A, transparent:true, opacity:.18 }));
+    glowLines.scale.setScalar(1.32);
+    scene.add(glowLines);
+
+    /* Sphères aux sommets */
+    const sGeo = new THREE.SphereGeometry(0.045, 6, 6);
+    const sMat = new THREE.MeshBasicMaterial({ color:0xC6A84E });
+    const spheres = Array.from({length:16}, () => { const m = new THREE.Mesh(sGeo,sMat); scene.add(m); return m; });
+
+    /* ── TORUS KNOT en orbite ── */
+    const knot     = new THREE.Mesh(
+        new THREE.TorusKnotGeometry(.6, .17, 100, 16, 2, 3),
+        new THREE.MeshPhongMaterial({ color:0x1C3356, emissive:0x0a1826, shininess:200, specular:0xC6A84E }));
+    const knotWire = new THREE.Mesh(
+        new THREE.TorusKnotGeometry(.63, .19, 100, 16, 2, 3),
+        new THREE.MeshBasicMaterial({ color:0x5dade2, wireframe:true, transparent:true, opacity:.15 }));
+    scene.add(knot); scene.add(knotWire);
+
+    /* ── PARTICULES (200, optimisées) ── */
+    const PC = 200;
+    const pPos = new Float32Array(PC*3), pVel = new Float32Array(PC*3);
+    for (let i = 0; i < PC; i++) {
+        pPos[i*3]   = (Math.random()-.5)*14;
+        pPos[i*3+1] = (Math.random()-.5)*14;
+        pPos[i*3+2] = (Math.random()-.5)*6;
+        pVel[i*3]   = (Math.random()-.5)*.003;
+        pVel[i*3+1] = (Math.random()-.5)*.003;
+    }
+    const pGeom = new THREE.BufferGeometry();
+    pGeom.setAttribute('position', new THREE.BufferAttribute(pPos, 3));
+    scene.add(new THREE.Points(pGeom,
+        new THREE.PointsMaterial({ color:0xC6A84E, size:.05, transparent:true, opacity:.5 })));
+
+    /* ── LUMIÈRES ── */
+    scene.add(new THREE.AmbientLight(0xffffff, .3));
+    const pl1 = new THREE.PointLight(0xC6A84E, 3.5, 14); scene.add(pl1);
+    const pl2 = new THREE.PointLight(0x5dade2, 2.5, 12); scene.add(pl2);
+    scene.add(Object.assign(new THREE.PointLight(0xffffff, 1.2, 8),
+        { position: { x:0, y:4, z:4, set(){} } }));
+
+    /* ── FONCTIONS ROTATION 4D ── */
+    function rXW(v,c,s){ return [v[0]*c-v[3]*s, v[1], v[2], v[0]*s+v[3]*c]; }
+    function rYW(v,c,s){ return [v[0], v[1]*c-v[3]*s, v[2], v[1]*s+v[3]*c]; }
+    function rZW(v,c,s){ return [v[0], v[1], v[2]*c-v[3]*s, v[2]*s+v[3]*c]; }
+    function rXY(v,c,s){ return [v[0]*c-v[1]*s, v[0]*s+v[1]*c, v[2], v[3]]; }
+
+    /* Projection perspective 4D → 3D */
+    function proj4(v){ const f=2.5/(2.5-v[3]); return [v[0]*f, v[1]*f, v[2]*f]; }
+
+    let t = 0, frame = 0;
+
+    function animate(){
+        requestAnimationFrame(animate);
+        t += .009; frame++;
+
+        /* Caméra suit la souris (rotation globale, moins cher qu'objet) */
+        targetRX += (heroMouseY*.5 - targetRX)*.04;
+        targetRY += (heroMouseX*.5 - targetRY)*.04;
+        camera.position.x = Math.sin(targetRY*.5)*.9;
+        camera.position.y = Math.sin(targetRX*.5)*.9;
+        camera.lookAt(0,0,0);
+
+        /* ── Rotation 4D du tesseract ── */
+        const c1=Math.cos(t*.38), s1=Math.sin(t*.38);
+        const c2=Math.cos(t*.27), s2=Math.sin(t*.27);
+        const c3=Math.cos(t*.19), s3=Math.sin(t*.19);
+        const c4=Math.cos(t*.14), s4=Math.sin(t*.14);
+
+        const proj = verts4D.map(v => {
+            let r = rXW(v,c1,s1);
+            r = rYW(r,c2,s2);
+            r = rZW(r,c3,s3);
+            r = rXY(r,c4,s4);
+            return proj4(r);
+        });
+
+        /* Mise à jour arêtes */
+        edges.forEach(([a,b],i)=>{
+            const pa=proj[a], pb=proj[b];
+            tessPos[i*6]=pa[0]; tessPos[i*6+1]=pa[1]; tessPos[i*6+2]=pa[2];
+            tessPos[i*6+3]=pb[0]; tessPos[i*6+4]=pb[1]; tessPos[i*6+5]=pb[2];
+            glowPos[i*6]=pa[0]; glowPos[i*6+1]=pa[1]; glowPos[i*6+2]=pa[2];
+            glowPos[i*6+3]=pb[0]; glowPos[i*6+4]=pb[1]; glowPos[i*6+5]=pb[2];
+        });
+        tessGeom.attributes.position.needsUpdate = true;
+        glowGeom.attributes.position.needsUpdate = true;
+
+        /* Sphères aux sommets */
+        proj.forEach((p,i)=>{ spheres[i].position.set(p[0]*1.25,p[1]*1.25,p[2]*1.25); });
+
+        /* Torus knot en orbite */
+        const kr=2.1;
+        knot.position.set(Math.cos(t*.5)*kr, Math.sin(t*.35)*.7, Math.sin(t*.5)*kr*.3);
+        knot.rotation.y = t*1.2; knot.rotation.x = t*.5;
+        knotWire.position.copy(knot.position);
+        knotWire.rotation.copy(knot.rotation);
+
+        /* Particules (1 frame sur 2) */
+        if (frame%2===0) {
+            for (let i=0;i<PC;i++){
+                pPos[i*3]+=pVel[i*3]; pPos[i*3+1]+=pVel[i*3+1];
+                if(Math.abs(pPos[i*3])>7) pVel[i*3]*=-1;
+                if(Math.abs(pPos[i*3+1])>7) pVel[i*3+1]*=-1;
+            }
+            pGeom.attributes.position.needsUpdate = true;
+        }
+
+        /* Lumières orbitent */
+        pl1.position.set(Math.sin(t*.65)*3.5, Math.cos(t*.45)*3.5, 2);
+        pl2.position.set(-Math.cos(t*.8)*3, Math.sin(t*.6)*-3, 3);
+
+        renderer.render(scene, camera);
+    }
+    animate();
+
+    window.addEventListener('resize',()=>{
+        const W2=container.offsetWidth, H2=container.offsetHeight||window.innerHeight-72;
+        camera.aspect=W2/H2; camera.updateProjectionMatrix(); renderer.setSize(W2,H2);
+    });
+})(); } catch(e){ console.warn("Three.js:", e); }
+
+/* ── NAV : fermeture auto au clic sur un lien (bonus, le menu fonctionne même si ce bloc échoue) ── */
+try {
+    var navToggle = document.getElementById('nav-toggle');
+    if(navToggle){
+        document.querySelectorAll('#main-nav a').forEach(function(a){
+            a.addEventListener('click', function(){ navToggle.checked = false; });
+        });
+    }
+} catch(e){ console.warn('Nav JS bonus:', e); }
+
+/* ── STATEMENT REVEAL (scroll-triggered) ── */
+(function(){
+    const lines = document.querySelectorAll('.statement-line, .statement-sub');
+    if(!lines.length) return;
+    const obs = new IntersectionObserver(entries=>{
+        entries.forEach(e=>{
+            if(e.isIntersecting) e.target.classList.add('visible');
+        });
+    }, { threshold:0.3 });
+    lines.forEach(l=>obs.observe(l));
+})();
+
+/* ── SCROLL ── */
+window.addEventListener('scroll', ()=>{
+    document.getElementById('header').classList.toggle('scrolled', scrollY > 40);
+    const hl = document.getElementById('hero-left');
+    if(hl && scrollY < window.innerHeight) hl.style.transform = `translateY(${scrollY*.12}px)`;
+}, { passive:true });
+
+/* ── REVEAL ── */
+document.body.classList.add('js-ready');
+const obs = new IntersectionObserver(entries=>{
+    entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold:0, rootMargin:'0px 0px -60px 0px' });
+document.querySelectorAll('.reveal,.reveal-left,.reveal-scale').forEach(el=>obs.observe(el));
+
+/* ── 3D TILT ── */
+function addTilt(selector, strength=10){
+    document.querySelectorAll(selector).forEach(el=>{
+        el.addEventListener('mousemove', e=>{
+            const r = el.getBoundingClientRect();
+            const x = (e.clientX-r.left)/r.width  - .5;
+            const y = (e.clientY-r.top) /r.height - .5;
+            el.style.transform = `perspective(900px) rotateX(${-y*strength}deg) rotateY(${x*strength}deg) scale3d(1.02,1.02,1.02)`;
+        });
+        el.addEventListener('mouseleave', ()=>{
+            el.style.transition = 'transform .6s cubic-bezier(.16,1,.3,1)';
+            el.style.transform  = '';
+            setTimeout(()=>el.style.transition='', 600);
+        });
+    });
+}
+addTilt('.process-step', 10);
+addTilt('.deliv-row', 4);
+addTilt('.value-item', 6);
+
+/* ── COUNTER ── */
+const cEl = document.getElementById('counter-num');
+if(cEl){
+    const co = new IntersectionObserver(entries=>{
+        entries.forEach(e=>{
+            if(!e.isIntersecting) return;
+            let start=null;
+            (function step(ts){ if(!start) start=ts; const p=Math.min((ts-start)/1400,1); const ease=1-Math.pow(1-p,3); cEl.textContent=Math.floor(ease*100)+'%'; if(p<1) requestAnimationFrame(step); })(performance.now());
+            co.unobserve(e.target);
+        });
+    },{ threshold:.5 });
+    co.observe(cEl);
+}
+
+/* ── FAQ ACCORDION ── */
+document.querySelectorAll('.faq-question').forEach(q=>{
+    q.addEventListener('click', ()=>{
+        const item = q.parentElement;
+        const wasOpen = item.classList.contains('open');
+        document.querySelectorAll('.faq-item.open').forEach(i=>i.classList.remove('open'));
+        if(!wasOpen) item.classList.add('open');
+    });
+});
+/* ══ SCROLL-DRIVEN SLIDES ══ */
+(function(){
+    const wrap  = document.getElementById('deliv-sticky-wrap');
+    const slides= Array.from(document.querySelectorAll('.deliv-slide'));
+    const dots  = Array.from(document.querySelectorAll('.deliv-dot'));
+    const bar   = document.getElementById('deliv-progress');
+    if(!wrap||!slides.length) return;
+    let cur=0;
+    function setSlide(idx){
+        slides[cur].classList.remove('active'); dots[cur]&&dots[cur].classList.remove('active');
+        cur=Math.max(0,Math.min(idx,slides.length-1));
+        slides[cur].classList.add('active'); dots[cur]&&dots[cur].classList.add('active');
+    }
+    window.addEventListener('scroll',function(){
+        if(window.innerWidth>900) return;
+        const rect=wrap.getBoundingClientRect();
+        const scrolled=-rect.top;
+        const total=rect.height-window.innerHeight;
+        if(scrolled<0||scrolled>total) return;
+        const progress=scrolled/total;
+        const idx=Math.min(Math.floor(progress*slides.length),slides.length-1);
+        setSlide(idx);
+        if(bar) bar.style.width=(progress*100)+'%';
+    },{passive:true});
+})();
+
+
+/* ── WHY CARDS SCROLL ANIMATION ── */
+(function(){
+    const cards = document.querySelectorAll('.why-animated');
+    if(!cards.length) return;
+
+    const obs = new IntersectionObserver((entries)=>{
+        entries.forEach(entry=>{
+            const el = entry.target;
+            if(entry.isIntersecting){
+                el.classList.remove('exit-up');
+                // Forcer reflow pour que la transition re-démarre
+                void el.offsetHeight;
+                el.classList.add('in-view');
+            } else {
+                // Détecter si l'élément sort par le haut ou le bas
+                const rect = entry.boundingClientRect;
+                if(rect.top < 0){
+                    // Sort par le haut → exit-up
+                    el.classList.add('exit-up');
+                    el.classList.remove('in-view');
+                } else {
+                    // Sort par le bas → retour à l'état initial
+                    el.classList.remove('in-view');
+                    el.classList.remove('exit-up');
+                }
+            }
+        });
+    }, { threshold: 0.15, rootMargin: '0px 0px -5% 0px' });
+
+    cards.forEach(card => obs.observe(card));
+})();
+
+
+/* ── EDGE ANIMATIONS OBSERVER ── */
+(function(){
+    const els = document.querySelectorAll('.from-left, .from-right');
+    if(!els.length) return;
+    const obs = new IntersectionObserver(entries=>{
+        entries.forEach(e=>{
+            const el = e.target;
+            const fromLeft = el.classList.contains('from-left');
+            if(e.isIntersecting){
+                el.classList.remove('edge-exit');
+                void el.offsetHeight;
+                el.classList.add('edge-visible');
+            } else {
+                const rect = e.boundingClientRect;
+                if(rect.top < 0){
+                    el.classList.add('edge-exit');
+                    el.classList.remove('edge-visible');
+                } else {
+                    el.classList.remove('edge-visible','edge-exit');
+                }
+            }
+        });
+    }, { threshold:0.08, rootMargin:'0px 0px -4% 0px' });
+    els.forEach(el=>obs.observe(el));
+})();
+
+
+/* ── TASTY HORIZONTAL SCROLL ── */
+(function(){
+    const blocks = document.querySelectorAll('.tasty-block');
+    if(!blocks.length) return;
+    const obs = new IntersectionObserver(function(entries){
+        entries.forEach(function(entry){
+            const el = entry.target;
+            const fromLeft = el.classList.contains('from-left');
+            if(entry.isIntersecting){
+                el.classList.remove('exit-left','exit-right');
+                void el.offsetWidth;
+                el.classList.add('in-view');
+            } else {
+                const above = entry.boundingClientRect.top < 0;
+                el.classList.remove('in-view');
+                if(above){
+                    el.classList.add(fromLeft ? 'exit-left' : 'exit-right');
+                } else {
+                    el.classList.remove('exit-left','exit-right');
+                }
+            }
+        });
+    }, { threshold:0.1 });
+    blocks.forEach(function(b){ obs.observe(b); });
+})();
+
+
+/* ── STATS COUNTER ── */
+(function(){
+    const cards = document.querySelectorAll('.stat-card');
+    if(!cards.length) return;
+    function animCounter(el, target, suffix){
+        const numEl = el.querySelector('.stat-num');
+        if(!numEl) return;
+        let start = null;
+        const dur = target === 0 ? 300 : 1200;
+        function step(ts){
+            if(!start) start = ts;
+            const p = Math.min((ts-start)/dur, 1);
+            const ease = 1 - Math.pow(1 - p, 3);
+            const val = target === 0 ? 0 : Math.round(ease * target);
+            numEl.textContent = val + suffix;
+            if(p < 1) requestAnimationFrame(step);
+            else { el.classList.add('counted'); }
+        }
+        requestAnimationFrame(step);
+    }
+    const obs = new IntersectionObserver(entries=>{
+        entries.forEach(e=>{
+            if(e.isIntersecting && !e.target.classList.contains('counted')){
+                const t = parseInt(e.target.dataset.count);
+                const s = e.target.dataset.suffix;
+                animCounter(e.target, t, s);
+            }
+        });
+    }, {threshold:0.4});
+    cards.forEach(c=>obs.observe(c));
+})();
+
+/* ── PROCESS 3D SCROLL ── */
+(function(){
+    const steps = document.querySelectorAll('.process-step');
+    if(!steps.length) return;
+    const obs = new IntersectionObserver(entries=>{
+        entries.forEach((e,idx)=>{
+            if(e.isIntersecting){
+                setTimeout(()=>e.target.classList.add('in-view'), idx*120);
+            } else if(e.boundingClientRect.top > 0){
+                e.target.classList.remove('in-view');
+            }
+        });
+    }, {threshold:0.2});
+    steps.forEach(s=>obs.observe(s));
+})();
+
+
+
+
+</script>
+</body>
+</html>
